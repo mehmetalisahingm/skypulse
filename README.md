@@ -83,4 +83,4 @@ SkyPulse/
 This project utilizes the free-tier **OpenWeatherMap** API (`/weather` and `/forecast` endpoints). The provided API KEY inside `src/services/weatherService.js` is intended for development purposes. For production deployments, it is highly recommended to store the API Key within a `.env` file.
 
 ---
-*Created as part of an Advanced Agentic Coding roadmap journey.* 🚀
+
