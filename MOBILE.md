@@ -1,29 +1,29 @@
-# SkyPulse App Log (V2 Update)
+# SkyPulse Uygulama Günlüğü (V2 Güncellemesi)
 
-## Development Workflow & Roadmap
+## Geliştirme İş Akışı & Yol Haritası
 
-**1. Project Selected:** SkyPulse Weather App (Level 2 out of 4)
-**2. Technology Stack:** React Native Expo, Context API, AsyncStorage, OpenWeatherMap API
-**3. Key Features Intergrated (V2):**
-- Smart Clothing Assistant ('Ne Giysem?' AI)
-- 24-Hour/5-Day Forecast Carousels
-- Live Time & Auto-Localization (EN & TR)
-- Dynamic UI elements supporting Dark & Light Modes.
-- Weather specific gradients and animations (Reanimated).
+**1. Seçilen Proje:** SkyPulse Hava Durumu Uygulaması (Seviye 2 / 4)
+**2. Kullanılan Teknolojiler (Stack):** React Native Expo, Context API, AsyncStorage, OpenWeatherMap API
+**3. Entegre Edilen Temel Özellikler (V2):**
+- Akıllı Giyim Asistanı ('Ne Giysem?' Yapay Zekası)
+- 24-Saatlik / 5-Günlük Hava Tahmini Kaydırma Ruloları
+- Canlı Saat & Otomatik Dil Tespiti (Tr & En)
+- Sistemin Aydınlık ve Karanlık mod tercihlerini destekleyen Dinamik UI bileşenleri.
+- Hava durumuna özel değişen arka plan renkleri (Gradient) ve animasyonlar (Reanimated).
 
 ---
 
-## 4. TEST -> Does it work?
-- **Android/iOS Simulation:** Tested via `AppSnack.js` and verified working within Expo Snack and standard Expo Web/Android environments. Context states and Navigation flows natively between tabs.
-- **Screenshot Placeholder:**
-  *(Please insert local mobile emulator screenshot here)*
-  `![SkyPulse Screenshot](./assets/screenshot.png)`
+## 4. TEST -> Çalışıyor mu?
+- **Android/iOS Simülasyonu:** `AppSnack.js` üzerinden test edildi ve Expo Snack ile standart Expo Web/Android ortamlarında eksiksiz çalıştığı doğrulandı. Context bazlı Durum Yönetimi (State) ve Navigasyon (Yönlendirmeler) sekmeler arasında kusursuz bir şekilde akıyor.
+- **Ekran Görüntüsü Yeri (Screenshot Placeholder):**
+  *(Lütfen test ettiğiniz mobil simülatör ekran görüntüsünü buraya ekleyin)*
+  `![SkyPulse Ekran Görüntüsü](./assets/screenshot.png)`
 
 ## 5. LOG
-- Implemented and separated all logic natively inside `src/`.
-- Updated `services/weatherService.js` to handle `/forecast` and `/weather` asynchronously using `Promise.all`.
-- Created robust `SmartAssistant.js` and `ForecastList.js` to maximize user engagement.
-- Patched known render bugs during initial loading state when data isn't fetched yet.
+- `AppSnack.js` içerisindeki tüm mantıklı kodlar ayrıştırıldı ve `src/` klasörü çatısı altındaki yerel (natively) dosyalarına bölündü.
+- `services/weatherService.js`, `/forecast` (Tahmin) ve `/weather` (Anlık) uçlarını (endpoint) eşzamanlı olarak `Promise.all` kullanarak işleyecek şekilde güncellendi.
+- Kullanıcı etkileşimini artırmak ve tasarımı iyileştirmek için sağlam `SmartAssistant.js` ve `ForecastList.js` bileşenleri (component) eklendi.
+- Veriler henüz API'den gelmediğinde, sayfanın ilk yüklenme (loading) aşamasında yaşanan bilindik çökme (render) hataları yamanıp giderildi.
 
-## 6. COMMIT
-All files have been integrated. Preparing for final commit push.
+## 6. COMMIT (Değişikliklerin Gönderimi)
+Tüm klasörler entegre edilip `init`lendi. Final Push gönderimi için Local Repoda `commit` süreci başarıyla hazırlandı.
