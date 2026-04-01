@@ -1,4 +1,4 @@
-# SkyPulse Uygulama Günlüğü (V2 Güncellemesi)
+SkyPulse Uygulama Günlüğü (V2 Güncellemesi)
 
 ## Geliştirme İş Akışı & Yol Haritası
 
@@ -13,11 +13,12 @@
 
 ---
 
+
 ## 4. TEST -> Çalışıyor mu?
 - **Android/iOS Simülasyonu:** `AppSnack.js` üzerinden test edildi ve Expo Snack ile standart Expo Web/Android ortamlarında eksiksiz çalıştığı doğrulandı. Context bazlı Durum Yönetimi (State) ve Navigasyon (Yönlendirmeler) sekmeler arasında kusursuz bir şekilde akıyor.
 - **Ekran Görüntüsü Yeri (Screenshot Placeholder):**
-  *(Lütfen test ettiğiniz mobil simülatör ekran görüntüsünü buraya ekleyin)*
-  `![SkyPulse Ekran Görüntüsü](./assets/screenshot.png)`
+
+ 
 
 ## 5. LOG
 - `AppSnack.js` içerisindeki tüm mantıklı kodlar ayrıştırıldı ve `src/` klasörü çatısı altındaki yerel (natively) dosyalarına bölündü.
